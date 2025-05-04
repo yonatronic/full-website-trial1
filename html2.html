@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css2.css">
+  <title>sign in page</title>
+</head>
+<body>     
+  <div class="div-container">
+    <div class="signin">
+      <button class="sign-up">
+        <a href="html3.html"
+            class="sign-underlined">sign-up</a>  if you don't have existing account</button>
+      <input 
+      class="name"
+      type="text"
+      placeholder="user-name">
+      <p class="name-corrector"></p>
+      <input
+      class="email"
+      type="text" 
+      placeholder="email"> 
+      <p class="email-corrector"></p>
+      <input 
+      class="phone-number" 
+      type="text" 
+      placeholder="phone-number">
+      <p class="number-reminder"></p> 
+      <div class="div1">
+        <input class="radios" type="radio" name="chosen"
+          value="accept">
+        <label class="accept" for="accept">i accept the terms and policies</label>
+      </div>
+      <input class="radio1" type="radio" name="chosen"
+        value="reject" checked>
+      <label class="reject" for="reject">i don't accept the terms and policies</label>
+      <div class="link-button-container">
+        <button class="submit-dim"
+      onclick="checker();
+      checker2();"
+        >submit</button>
+      </div>     
+
+    </div>
+  </div>
+  
+
+  <script src="js2.js"></script>
+</body>
+</html>
